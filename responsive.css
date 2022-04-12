@@ -1,0 +1,88 @@
+@media (max-width: 991px) {
+    #menu{
+       
+        width: 100%;
+        margin-top: 0px;
+    }
+   
+    #tituloSkillset,#tituloContacto{
+        width: 50% !important;
+    }
+    #carouselExampleControls img{
+        width: 105% !important;
+    }
+    #carouselExampleControls .descripcion img{
+        width: 10% !important;
+    }
+
+    #carouselExampleControls .descripcion{
+        width: 100% !important;
+    }
+    #carouselExampleControls .carousel-caption,#info{
+        width: 50% !important;
+    }
+}
+
+@media (max-width: 1480px) {
+    #tituloSkillset h2,#tituloProyectos h2,#info,#tituloContacto h2{
+        font-size: 20px !important;
+    }
+    #tituloSkillset,#tituloProyectos {
+        width: 50% !important;
+    }
+
+    .card, #ElementoForm {
+        flex-basis: 46% !important;
+        margin: 5px !important;
+    }
+
+    #menuFooter{
+        flex-basis: 50% !important;
+    }
+    #redes{
+        flex-basis: 40% !important;
+    }
+    #elaborado{
+        flex-basis: 100% !important;
+    }
+    #imgElaborado img{
+        width: 8% !important;
+    }
+
+
+
+}
+
+@media (max-width: 600px) {
+    #menuFooter{
+        flex-basis: 100% !important;
+    }
+    #redes{
+        flex-basis: 100% !important;
+    }
+    #elaborado{
+        flex-basis: 100% !important;
+    }
+    .seccion{
+        width: 70% !important;
+    }
+    #sobremi{
+        flex-basis: 100% !important;
+    }
+    #sobremi p{
+        width: 100% !important;
+    }
+
+    #imgElaborado img{
+        width: 12% !important;
+    }
+
+    .card, #ElementoForm {
+        flex-basis: 100% !important;
+        margin: 5px !important;
+    }
+
+    #textoFormulario{
+        margin: 25px;
+    }
+}
